@@ -114,6 +114,7 @@ class MnistModel(nn.Module):
 model = MnistModel()
 print(model)
 
+output:
 MnistModel(
   (lr1): Linear(in_features=784, out_features=128, bias=True)
   (lr2): Linear(in_features=128, out_features=64, bias=True)
